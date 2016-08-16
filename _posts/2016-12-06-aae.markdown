@@ -4,6 +4,8 @@ date:   2012-12-06
 categories: [coding]
 tags: [better code]
 ---
+*This is based on an email that I originally sent out to fellow engineers at my company.  I probably would have written it somewhat differently for a wider audience (I ony edited it slightly for readability) but, that being said, I strongly believe that acronyms (however well-intentioned) are, at best, not super helpful and, more often, are extremely obfuscating.* 
+
 I'll just come right out and say what I think: when writing code, acronyms (and other abbreviations) are evil and should be avoided like a plague of blood-sucking demon bats.
 
 Here's the (reasonable) arguments for acronyms/abbreviations that I can think of:
