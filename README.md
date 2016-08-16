@@ -1,3 +1,3 @@
 # dnbg.io
 
-The Jekyll-based personal website for Dan Baggott based on [Jekyll-Uno](https://github.com/joshgerdes/jekyll-uno).
+The [Jekyll](https://jekyllrb.com/)-based source code for [dnbg.io](http://www.dnbg.io).
