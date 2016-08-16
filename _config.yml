@@ -4,7 +4,7 @@ description: 'Software Engineer'
 url: 'http://www.dnbg.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'dngb'
+disqus_shortname: 'dnbg'
 
 author:
   name: 'Dan Baggott'
