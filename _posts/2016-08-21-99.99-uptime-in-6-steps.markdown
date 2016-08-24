@@ -1,5 +1,5 @@
 ---
-title:  "99.999% uptime in 6 simple steps"
+title:  "99.99% uptime in 6 simple steps"
 date:   2016-08-23
 categories: [software]
 tags: [monitoring,metrics,dropwizard,new relic]
