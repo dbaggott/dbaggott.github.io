@@ -32,5 +32,6 @@ In short, the joy I was feeling was because I was using [AssertJ](http://joel-co
 
 And so, of course, now I'm wondering what of my other coding habits need re-evaluating?  Any suggestions based on your own experiences of changed habits that brought you more joy (coding or otherwise)?
 
+Notes:
 [^1]: Ok, sometimes a whole lot more than "a bit"
 [^2]: Right after "does what it's supposed to do", "clarity of intent" is one of the very top things I try to think about when I'm writing or reviewing code.
