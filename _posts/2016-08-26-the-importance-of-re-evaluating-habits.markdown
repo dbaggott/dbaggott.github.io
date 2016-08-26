@@ -35,4 +35,4 @@ And so, of course, now I'm wondering what of my other coding habits need re-eval
 Notes:
 
 [^1]: Ok, sometimes a whole lot more than "a bit"
-[^2]: Right after "does what it's supposed to do", "clarity of intent" is one of the very top things I try to think about when I'm writing or reviewing code.
+[^2]: Right up there with "does what it's supposed to do", "clarity of intent" is one of the very top things I try to think about when I’m writing or reviewing code.  In fact, without the clarity, it's so much harder to even evaluate the code!
