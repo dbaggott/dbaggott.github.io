@@ -6,14 +6,14 @@ tags: [better code]
 ---
 A few minutes ago I was writing a unit test when I suddenly experienced a feeling that is most easily described as "joy".  And in that flood of joy, I was reminded that it's a really good idea to periodically re-evaluate the habits of your life.
 
-The concept of "habits" often gets a bad rap due to it's frequent association with the word "bad" and the inflexibility that habits imply.  Both of those are, in my opinion, unfortunate associations.  I'm a strong believer in the idea that, with a bit [^1] of self-awareness and focused attention, your habits can be curated and groomed so that the good ones are encouraged to flourish and the bad ones can be gently weeded out.  You can even consciously plant the seeds for new habits.
+The concept of "habits" often gets a bad rap due to its frequent association with the word "bad" and the inflexibility that habits imply.  Both of those are, in my opinion, unfortunate associations.  I'm a strong believer in the idea that, with a bit [^1] of self-awareness and focused attention, your habits can be curated and groomed so that the good ones are encouraged to flourish and the bad ones can be gently weeded out.  You can even consciously plant the seeds for new habits.
 
 Back to unit tests.  While I do have a deep appreciation of unit testing that perhaps even merits an "I ♥ Unit Tests" sticker, my happiness as it relates to testing is usually most profoundly felt when I'm doing one of two things:
 
 1. refactoring or otherwise modifying pre-existing code and the code is accompanied by solid test coverage
 2. I'm writing tricky code with lots of edge cases and I've written my tests first and it's helping me to confidently nail the implementation
 
-A few minutes ago, I was doing neither of these two things.  Instead, I was writing some very simple code that, although different in it's details from what I'll show below was, more or less, exactly what you see below (I changed the specifics to avoid the distraction of domain details):
+A few minutes ago, I was doing neither of these two things.  Instead, I was writing some very simple code that, although different in its details from what I'll show below was, more or less, exactly what you see below (I changed the specifics to avoid the distraction of domain details):
 
 ```java
     @Test
