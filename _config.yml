@@ -2,7 +2,7 @@
 title: Dan Baggott
 description: 'Software engineer. Empiricist. Simplifier.'
 url: 'http://www.dnbg.us'
-baseurl: '/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'dnbg'
 
