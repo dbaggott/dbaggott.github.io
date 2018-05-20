@@ -1,14 +1,14 @@
 # Site settings
 title: Dan Baggott
 description: 'Software engineer. Empiricist. Simplifier.'
-url: 'http://www.dnbg.us'
+url: 'http://www.dnbg.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'dnbg'
 
 author:
   name: 'Dan Baggott'
-  email: dan@dnbg.us
+  email: dan@dnbg.io
   github_username:  dbaggott
   linkedin_username:  dan-baggott
 
