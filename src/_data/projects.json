@@ -18,10 +18,10 @@
     "url": "https://www.oasis-smp.com/"
   },
   {
-    "name": "claude-plugins",
+    "name": "dnbg-plugins",
     "kind": "Claude Code plugins",
     "about": "A workflow for agent sessions: every change through a worktree and a draft PR, issues written to survive a cold handoff, and an independent bot reviewing before a human merges.",
-    "url": "https://github.com/dbaggott/claude-plugins"
+    "url": "https://github.com/dbaggott/dnbg-plugins"
   },
   {
     "name": "aws-use",
