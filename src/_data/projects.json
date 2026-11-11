@@ -1,26 +1,8 @@
 [
   {
-    "name": "Landfall",
-    "kind": "Web app",
-    "about": "A map for listings posted at a location. Screen the candidates, see where they are, and plan the drive to the ones worth a visit.",
-    "url": "https://landfall.dnbg.app/"
-  },
-  {
-    "name": "Sweet Land Math",
-    "kind": "Game",
-    "about": "Grow a field of crops by practicing times tables, harvest them, and build a community with what you sell.",
-    "url": "https://learn.dnbg.app/times-tables/"
-  },
-  {
-    "name": "Oasis SMP",
-    "kind": "Minecraft server",
-    "about": "A hosted Minecraft server that Java and Bedrock players share.",
-    "url": "https://www.oasis-smp.com/"
-  },
-  {
     "name": "dnbg-plugins",
     "kind": "Claude Code plugins",
-    "about": "A workflow for agent sessions: every change through a worktree and a draft PR, issues written to survive a cold handoff, and an independent bot reviewing before a human merges.",
+    "about": "An opinionated software factory, packaged as a set of Claude Code plugins. AI-driven, human-directed, with built-in retrospectives that surface friction to fix. Honed over its first 7 months of real use across 35 repos, ~2k PRs, 1.2M+ lines of code, and 10 languages. Still sharpening.",
     "url": "https://github.com/dbaggott/dnbg-plugins"
   },
   {
@@ -34,5 +16,29 @@
     "kind": "Command-line tool",
     "about": "A git subcommand that deletes branches whose work has already landed, removes their worktrees, fast-forwards the default branch and runs git gc.",
     "url": "https://github.com/dbaggott/git-tidy"
+  },
+  {
+    "name": "Landfall",
+    "kind": "Web app",
+    "about": "A map for listings posted at a location. Screen the candidates, see where they are, and plan the drive to the ones worth a visit.",
+    "url": "https://landfall.dnbg.app/"
+  },
+  {
+    "name": "Sweet Land Math",
+    "kind": "Game",
+    "about": "Grow a field of crops by practicing times tables, harvest them, and build a community with what you sell.",
+    "url": "https://learn.dnbg.app/sweet-land-math/"
+  },
+  {
+    "name": "OASIS SMP",
+    "kind": "Minecraft server",
+    "about": "A hosted Minecraft server co-created with my kiddo for his school.",
+    "url": "https://www.oasis-smp.com/"
+  },
+  {
+    "name": "SAW Auto-Clicker",
+    "kind": "Windows app",
+    "about": "An auto-clicker my kiddo asked for so he didn't have to trust one from a shady website. Hold the mouse button and it clicks at a set rate, only in the apps you allow.",
+    "url": "https://shadyazzwebsite.dnbg.app/"
   }
 ]
