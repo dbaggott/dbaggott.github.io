@@ -2,7 +2,7 @@
   {
     "name": "dnbg-plugins",
     "kind": "Claude Code plugins",
-    "about": "An opinionated software factory, packaged as a set of Claude Code plugins. AI-driven, human-directed, with built-in retrospectives that surface friction to fix. Honed over its first 7 months of real use across 35 repos, ~2k PRs, 1.2M+ lines of code, and 10 languages. Still sharpening.",
+    "about": "An opinionated software factory, packaged as a set of Claude Code plugins. AI-driven and human-directed: agents do the work, you make the calls. Honed over its first 7 months across 35 repos, ~2k PRs, 1.2M+ lines of code, and 10 languages. Still sharpening.",
     "url": "https://github.com/dbaggott/dnbg-plugins"
   },
   {
