@@ -8,15 +8,15 @@ Some number of sessions later, I *finally* notice that instead of switching my m
 
 I've been burning through my usage and I've been oblivious!
 
-Enter `dnbg-comfort` a Claude plugin that prevents this from ever happening.
+Enter `dnbg-comforts` a Claude plugin that prevents this from ever happening.
 
 Now when I accidentally do this, I get a nice loud notice:
 
 ![Status line after /model saved Fable 5.2 as the default: a red "FABLE 5.2 · all future sessions!" badge](/images/writings/not-so-fable-ous-all-future-sessions.png)
 
-A short while later, it returns to it's normal mode which drops the "all future sessions alert" and simply makes it very visible when I'm using a non-default model.
+A short while later, it returns to its normal mode which drops the "all future sessions alert" and simply makes it very visible when I'm using a non-default model.
 
-Note that there some other "comforts" -- information about the context size relative to when it auto-compacts, the state of your cache, your usage, and when your usage next resets.
+Note that there are some other "comforts" -- information about the context size relative to when it auto-compacts, the state of your cache, your usage, and when your usage next resets.
 
 Here are some examples of it in action:
 
@@ -34,7 +34,7 @@ A couple of other things it adds:
      
 2. `/later some message` Send a message to your agent without waking it and burning a turn.  The agent will get your message once it wakes for some other reason. I use this for cases where the agent is waiting on background tasks, for example a code review, and I have something to tell it but it can process it along with the background task results.
    
-   Admittedly, this is a hyper optimization that I mostly don't use unless I'm in a situation where I'm being hyper conservative about my usage for some reason, eg I'm at 99% usage and I'm trying to finish something.
+   Admittedly, this is a hyper-optimization that I mostly don't use unless I'm in a situation where I'm being hyper conservative about my usage for some reason, e.g. I'm at 99% usage and I'm trying to finish something.
 
 If you want to try this out it's as easy as:
 
