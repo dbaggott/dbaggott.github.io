@@ -26,6 +26,7 @@ for (const link of document.querySelectorAll(".prose a.expand")) {
     const image = link.querySelector("img");
     lightboxImage.src = link.href;
     lightboxImage.alt = image.alt;
+    lightbox.setAttribute("aria-label", image.alt || "Image");
     lightbox.showModal();
   });
 }
@@ -49,6 +50,7 @@ function show(ref) {
   if (!note) return;
   const content = note.cloneNode(true);
   content.querySelectorAll(".footnote-backref").forEach((backref) => backref.remove());
+  content.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
   preview.replaceChildren(...content.childNodes);
   preview.hidden = false;
   shownFor = ref;
@@ -64,8 +66,8 @@ function hide() {
   preview.hidden = true;
 }
 
-// Leaving the reference for the preview itself keeps it, so a link in a note
-// can be followed.
+// Moving the mouse from the reference onto the preview keeps it, so a link in
+// a note can be followed; from the keyboard, the reference leads to the note.
 function hideSoon() {
   clearTimeout(hideTimer);
   hideTimer = setTimeout(hide, HIDE_DELAY_MS);

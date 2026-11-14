@@ -12,17 +12,21 @@ export const config = {
 
 // Wraps each image in a link to itself, which js/post.js opens in a lightbox;
 // without the script, the link opens the image. An image that is already a
-// link keeps its own.
+// link, in Markdown or HTML, keeps its own.
 function expandableImages(md) {
   const render = md.renderer.rules.image;
+  const opens = (token) =>
+    token.type === "link_open" || (token.type === "html_inline" && /^<a\b/i.test(token.content));
+  const closes = (token) =>
+    token.type === "link_close" || (token.type === "html_inline" && /^<\/a\s*>/i.test(token.content));
+
   md.renderer.rules.image = (tokens, idx, options, env, self) => {
     const img = render(tokens, idx, options, env, self);
     let depth = 0;
-    for (const token of tokens.slice(0, idx)) {
-      if (token.type === "link_open") depth++;
-      if (token.type === "link_close") depth--;
+    for (let i = idx - 1; i >= 0; i--) {
+      if (closes(tokens[i])) depth--;
+      else if (opens(tokens[i]) && ++depth > 0) return img;
     }
-    if (depth > 0) return img;
     const src = md.utils.escapeHtml(tokens[idx].attrGet("src"));
     return `<a class="expand" href="${src}">${img}</a>`;
   };
