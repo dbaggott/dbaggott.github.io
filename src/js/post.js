@@ -53,6 +53,7 @@ function show(ref) {
   content.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
   preview.replaceChildren(...content.childNodes);
   preview.hidden = false;
+  shownFor?.removeAttribute("aria-describedby");
   shownFor = ref;
   ref.setAttribute("aria-describedby", preview.id);
   place(ref);
