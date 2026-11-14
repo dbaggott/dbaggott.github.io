@@ -94,3 +94,16 @@ test("every same-site link and resource resolves", () => {
     }
   }
 });
+
+test("every image in a post links to itself, for the lightbox", () => {
+  const posts = pages.filter(({ name }) => name.startsWith("writings/"));
+  for (const { name, html } of posts) {
+    for (const [tag] of html.matchAll(/<img\b[^>]*>/g)) {
+      const [src] = attributes(tag, "src");
+      assert.ok(
+        html.includes(`<a class="expand" href="${src}">${tag}</a>`),
+        `${name} has an image, ${src}, that does not link to itself`,
+      );
+    }
+  }
+});
